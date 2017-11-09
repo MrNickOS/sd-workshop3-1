@@ -61,7 +61,14 @@ taller consta de estos elementos:
   de archivos temporales un script bash ejecutable para hacer configuraciones de seguridad de mysql. De igual
   manera, deja activo el servicio escuchando en el puerto 3306.
   
-  Para ejecutar estos DF simultáneamente, se ejecuta un archivo de Docker Compose tipo yml.
+  Para ejecutar estos DF simultáneamente, se ejecuta un archivo de Docker Compose. Podemos notar en web y db
+  las líneas ```bashbuild```, esto implica que el DC ejecuta implícitamente los comandos
+  
+  ```bash
+  docker build /web
+  docker build /mysql
+  ```
+  
   ```yml
   version: '2'
   services:
