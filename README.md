@@ -89,8 +89,9 @@ taller consta de estos elementos:
   ```
   
   Y estas son las evidencias de funcionamiento en un contenedor Docker con IP NAT 172.17.0.3
-  ![1]
-  ![2]
   
-  [1]: 01.png
-  [2]: 02.png
+  ### Página de inicio
+  ![1]
+  
+  ### Página de consulta a la Base de Datos
+  ![2]
