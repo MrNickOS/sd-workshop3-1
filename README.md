@@ -95,3 +95,6 @@ taller consta de estos elementos:
   
   ### Página de consulta a la Base de Datos
   ![2]
+  
+  [1]: 01.png
+  [2]: 02.png
