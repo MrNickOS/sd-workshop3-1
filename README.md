@@ -68,8 +68,7 @@ taller consta de estos elementos:
   docker build /web
   docker build /mysql
   ```
-  
-  ### Docker Compose para Web + BD (docker-compose.yml) 
+  ### docker-compose.yml
   ```yml
   version: '2'
   services:
@@ -82,5 +81,13 @@ taller consta de estos elementos:
     ports:
      - "3306:3306"
   ```
+  
+  El comando debe ejecutarse en la carpeta donde se encuentren los folders <b>/web</b> y <b>/mysql</b>.
+  En el terminal, debe aparecer algo como esto:
+  ```bash
+  distribuidos@Equipo-Lab-306C:~/Documents/talleres/sd-workshop3$ docker-compose up
+  ```
+  
+  Y estas son las evidencias de funcionamiento.
   
   
