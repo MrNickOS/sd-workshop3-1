@@ -62,7 +62,7 @@ taller consta de estos elementos:
   manera, deja activo el servicio escuchando en el puerto 3306.
   
   Para ejecutar estos DF simultáneamente, se ejecuta un archivo de Docker Compose. Podemos notar en web y db
-  las líneas ```bashbuild```, esto implica que el DC ejecuta implícitamente los comandos
+  las líneas ```build```, esto implica que el DC ejecuta implícitamente los comandos
   
   ```bash
   docker build /web
