@@ -88,6 +88,5 @@ taller consta de estos elementos:
   distribuidos@Equipo-Lab-306C:~/Documents/talleres/sd-workshop3$ docker-compose up
   ```
   
-  Y estas son las evidencias de funcionamiento.
-  
+  Y estas son las evidencias de funcionamiento en un contenedor Docker con IP NAT 172.23.0.2
   
