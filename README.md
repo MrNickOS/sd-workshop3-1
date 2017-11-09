@@ -68,7 +68,7 @@ taller consta de estos elementos:
   docker build /web
   docker build /mysql
   ```
-  
+  ### Docker Compose para Web + BD (docker-compose.yml) 
   ```yml
   version: '2'
   services:
